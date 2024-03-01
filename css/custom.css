@@ -64,8 +64,8 @@ h1{
 /* Footer */
 
 footer {
-    background-image:url(https://images.squarespace-cdn.com/content/v1/54da8bf4e4b012c34ea6460e/1633122574996-KGYJ8COCAAFDJOBONTNT/Vintage+banner.JPG?format=1500w);
-    /* background-color:#d5aa79; */
+    /* background-image:url(https://images.squarespace-cdn.com/content/v1/54da8bf4e4b012c34ea6460e/1633122574996-KGYJ8COCAAFDJOBONTNT/Vintage+banner.JPG?format=1500w); */
+    background-color: #e9e2d1;
     flex-shrink: 0;
 
 
