@@ -9,9 +9,6 @@ section {
     align-items: center;
     padding: 80px 100px;
     color: #040404;
-    font-family: "Playfair Display SC", serif;
-    font-weight: 400;
-    font-style: normal;
 }
 
 .container-y {
@@ -67,6 +64,12 @@ section {
 .contente .text_box h6 {
     font-size: 2em;
     margin-bottom: 10px;
+}
+
+.main_title, .contente  h4, h1, h6{
+    font-family: "Playfair Display SC", serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 /*  */
