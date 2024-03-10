@@ -1,7 +1,6 @@
 body {
     display: flex;
     flex-direction: column;
-    background-color: #e9e2d1;
 }
 
 header {
@@ -25,11 +24,17 @@ h2{
 .container {
     margin: 0 auto;
     text-align: center;
+    
 }
 
 #instruction {
     font-size: 20px;
     color: #1c1c1c;
+}
+
+.btn a{
+    text-decoration: none;
+    color: #fff;
 }
 
 .btn.btn-warning {
