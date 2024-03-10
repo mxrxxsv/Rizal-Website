@@ -15,52 +15,53 @@
         rel="stylesheet">
 </head>
 
-<body>
+<body style="background-color: #e9e2d1;">
 
-    <main>
-        <header style="background-image: url('Picture/rizal.jpg')">
-            <br><br><br>
-            <div class="color-overlay d-flex justify-content-center align-items-center">
-                <h1 class="fs-0.5">Life and Works of Rizal</h1>
-            </div>
-            <br>
-        </header>
-    </main>
+        <main>
+            <header style="background-image: url('Picture/rizal.jpg')">
+                <br><br><br>
+                <div class="color-overlay d-flex justify-content-center align-items-center">
+                    <h1 class="fs-0.5">Life and Works of Rizal</h1>
+                </div>
+                <br>
+            </header>
+        </main>
 
-    <div class="container mt-5">
-        <div id="instruction">
-            <h2>Quiz Mechanics:</h2>
-            <p>Welcome to the Rizal Quiz Game! You will be presented with a series of life and works of rizal question,
-                Each question has multiple-choice options. Your task is to select the correct answer before the time
-                runs out. You will earn 5 points for each correct answer if you answer within 5 seconds, otherwise,
-                you'll earn 2 points. Good luck!</p>
-            <button class="btn btn-dark" id="proceedButton" onclick="startGame()">Proceed</button>
-            <button class="btn btn-warning"><a href="index.html">Back</a></button>
-        </div>
-        <div id="game" style="display: none;">
-            <table id="scoreTable" style="display: none;">
-                <tr>
-                    <th>Test</th>
-                    <th>Score</th>
-                </tr>
-                <tr>
-                    <td id="testNumber">0/19</td>
-                    <td id="currentScore">0</td>
-                </tr>
-            </table>
-            <div id="timer">Time left: <span id="time">20</span> seconds</div>
-            <div id="questionBox">
-                <div class="clue-images" id="clueImages"></div>
-                <div class="fs-3" id="question"></div>
+        <div class="container mt-5">
+            <div id="instruction">
+                <h2>Quiz Mechanics:</h2>
+                <p>Welcome to the Rizal Quiz Game! You will be presented with a series of life and works of rizal
+                    question,
+                    Each question has multiple-choice options. Your task is to select the correct answer before the time
+                    runs out. You will earn 5 points for each correct answer if you answer within 5 seconds, otherwise,
+                    you'll earn 2 points. Good luck!</p>
+                <button class="btn btn-dark" id="proceedButton" onclick="startGame()">Proceed</button>
+                <button class="btn btn-warning"><a href="index.html">Back</a></button>
             </div>
-            <div class="options-container" id="options"></div>
-            <div class="d-grid gap-2 col-1 mx-auto">
-                <button class="btn btn-warning" id="nextButton"
-                    onclick="nextQuestion()" style="display: none;">Next</button>
-                <button class="btn btn-dark" id="resetButton" onclick="resetGame()">Reset</button>
+            <div id="game" style="display: none;">
+                <table id="scoreTable" style="display: none;">
+                    <tr>
+                        <th>Test</th>
+                        <th>Score</th>
+                    </tr>
+                    <tr>
+                        <td id="testNumber">0/19</td>
+                        <td id="currentScore">0</td>
+                    </tr>
+                </table>
+                <div id="timer">Time left: <span id="time">20</span> seconds</div>
+                <div id="questionBox">
+                    <div class="clue-images" id="clueImages"></div>
+                    <div class="fs-3" id="question"></div>
+                </div>
+                <div class="options-container" id="options"></div>
+                <div class="d-grid gap-2 col-1 mx-auto">
+                    <button class="btn btn-warning" id="nextButton" onclick="nextQuestion()"
+                        style="display: none;">Next</button>
+                    <button class="btn btn-dark" id="resetButton" onclick="resetGame()">Reset</button>
+                </div>
             </div>
-        </div>
-    </div>
+        </div>  
 
     <script src="js/script.js"></script>
 
