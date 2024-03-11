@@ -195,8 +195,12 @@ function startGame() {
 }
 
 function endQuiz() {
+    document.getElementById('scoreTable').style.display = 'block';
+    document.getElementById('timer').style.display = 'none';
     document.getElementById('questionBox').innerHTML = `<h2>Congratulations! Quiz completed!</h2><p>Your final score is: ${score}</p>`;
     document.getElementById('nextButton').style.display = 'none';
+    document.getElementById('.options-container').style.display = 'none';
+    document.getElementById('options').style.display = 'none';
     document.getElementById('resetButton').style.display = 'block';
     document.getElementById('scoreTable').style.display = 'block';
 }
