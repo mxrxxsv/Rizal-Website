@@ -80,6 +80,12 @@ const questions = [
         clues: []
     },
     {
+        question: "Jose sibling that died at early age",
+        options: ["Maria", "Saturnina", "Concha"],
+        answer: 2,
+        clues: []
+    },
+    {
         question: "The most influencial and powerful person during Rizal's time",
         options: ["King", "Governor-General", "Friars"],
         answer: 2,
@@ -165,7 +171,7 @@ function selectOption(event) {
 function nextQuestion() {
     currentQuestion++;
     if (currentQuestion < questions.length) {
-        document.getElementById('testNumber').textContent = `${currentQuestion + 1}/19`;
+        document.getElementById('testNumber').textContent = `${currentQuestion + 1}/20`;
         displayQuestion();
         startTimer();
     } else {
@@ -208,7 +214,7 @@ function endQuiz() {
 function resetGame() {
     currentQuestion = 0;
     score = 0;
-    document.getElementById('testNumber').textContent = `${currentQuestion + 1}/19`;
+    document.getElementById('testNumber').textContent = `${currentQuestion + 1}/20`;
     document.getElementById('currentScore').textContent = `Score: ${score}`;
     document.getElementById('instruction').style.display = 'block';
     document.getElementById('game').style.display = 'none';
