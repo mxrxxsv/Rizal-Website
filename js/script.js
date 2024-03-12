@@ -81,7 +81,7 @@ const questions = [
     },
     {
         question: "Jose sibling that died at early age",
-        options: ["Maria", "Saturnina", "Concha"],
+        options: ["Leonor Rivera", "Saturnina", "Conception"],
         answer: 2,
         clues: []
     },
