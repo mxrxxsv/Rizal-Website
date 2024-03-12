@@ -125,7 +125,7 @@ const questions = [
 
 let currentQuestion = 0;
 let score = 0;
-let level = 1;
+let level = 0;
 let timer;
 
 function displayQuestion() {
@@ -171,7 +171,7 @@ function selectOption(event) {
 function nextQuestion() {
     currentQuestion++;
     if (currentQuestion < questions.length) {
-        document.getElementById('testNumber').textContent = `${currentQuestion + 1}/20`;
+        document.getElementById('testNumber').textContent = `${score / 5}/20`;
         displayQuestion();
         startTimer();
     } else {
