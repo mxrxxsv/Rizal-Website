@@ -57,7 +57,7 @@ const questions = [
     },
     {
         question: "Who is his first teacher?",
-        options: ["Her Mother", "His Father", "His Sister"],
+        options: ["Her Mother", "His Father", "Her Sister"],
         answer: 0,
         clues: []
     },
@@ -76,7 +76,7 @@ const questions = [
     {
         question: "How many siblings that Rizal have",
         options: ["11", "12", "10"],
-        answer: 0,
+        answer: 2,
         clues: []
     },
     {
