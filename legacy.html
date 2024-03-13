@@ -20,10 +20,11 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap"
         rel="stylesheet">
-        <script src="https://kit.fontawesome.com/48764efa36.js" crossorigin="anonymous"></script>
-        <link rel="preconnect" href="https://fonts.gstatic.com">
-        <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;600&display=swap" rel="stylesheet">
-        <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://kit.fontawesome.com/48764efa36.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;600&display=swap"
+        rel="stylesheet">
+    <script src="https://unpkg.com/scrollreveal"></script>
 </head>
 
 <div class="container">
@@ -147,7 +148,7 @@
                         height="500">
                     <div class="card-body">
                         <h5 class="card-title">Rizal's grave in Paco Cemetery in Manila</h5>
-                        
+
                     </div>
                 </div>
             </div>
@@ -158,7 +159,7 @@
                         height="500">
                     <div class="card-body">
                         <h5 class="card-title">Rizal plaque on a residence in Germany</h5>
-                        
+
                     </div>
                 </div>
 
@@ -170,7 +171,7 @@
                         height="500">
                     <div class="card-body">
                         <h5 class="card-title">Replica of the Jose Rizal Monument in Madrid</h5>
-                    
+
                     </div>
                 </div>
             </div>
@@ -180,8 +181,9 @@
                 <div class="card">
                     <img src="Picture/7.jpg" class="card-img-top" alt="Concepcion" width="600" height="500">
                     <div class="card-body">
-                        <h5 class="card-title">Statue of Jose Rizal in front of Louis Weiss Memorial Hospital in Chicago</h5>
-                    
+                        <h5 class="card-title">Statue of Jose Rizal in front of Louis Weiss Memorial Hospital in Chicago
+                        </h5>
+
                     </div>
                 </div>
             </div>
@@ -256,12 +258,19 @@
 
 <!-- Optional 1: bootstap bundle with Popper -->
 
-<!--  -->
-<!--  -->
-
-
-<!--  -->
-<!--  -->
+<script>
+    ScrollReveal({
+        // reset:true,
+        distance: '60px',
+        duration: 2500,
+        delay: 400
+    });
+    
+    ScrollReveal().reveal('.main_title', { delay: 500, origin: 'left' });
+    ScrollReveal().reveal('.sec-01, .image, info', { delay: 600, origin: 'bottom' });
+    ScrollReveal().reveal('.card', { delay: 600, origin: 'bottom' });
+    ScrollReveal().reveal('.port', { delay: 700, origin: 'left' });
+</script>
 
 </body>
 
