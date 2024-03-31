@@ -64,7 +64,7 @@ const questions = [
     {
         question: "Rizal's dog name is?",
         options: ["Uzman", "Usman", "Uszman"],
-        answer: 0,
+        answer: 1,
         clues: []
     },
     {
@@ -112,7 +112,7 @@ const questions = [
     {
         question: "This refers to discerning evaluative, and analytical thinking",
         options: ["Psychology", "Critical Thinking", "Logic"],
-        answer: 0,
+        answer: 1,
         clues: []
     },
     {
